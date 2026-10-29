@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="microservices">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/notifications.zip!/" />
+      <root url="jar://$PROJECT_DIR$/order.zip!/" />
+      <root url="jar://$PROJECT_DIR$/product.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
