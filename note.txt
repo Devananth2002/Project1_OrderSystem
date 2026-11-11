@@ -1,0 +1,1 @@
+Add gmail username and password in .env for notification servicei

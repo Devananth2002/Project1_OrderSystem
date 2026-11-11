@@ -1,0 +1,14 @@
+# config
+process.roles=broker,controller
+node.id=1
+
+listeners=PLAINTEXT://0.0.0.0:9092,CONTROLLER://0.0.0.0:9093
+
+advertised.listeners=PLAINTEXT://host.docker.internal:9092
+
+controller.listener.names=CONTROLLER
+inter.broker.listener.name=PLAINTEXT
+
+controller.quorum.voters=1@localhost:9093
+
+log.dirs=/tmp/kafka-logs
